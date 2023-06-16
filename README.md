@@ -32,13 +32,13 @@ This Python script allows you to convert email:password pairs to username:passwo
 ## Example
 Suppose you have a text file named input.txt with the following content:
 
-john.doe@example.com:pa$$w0rd1
-jane.smith@example.com:securepass
+mahir.mahe@example.com:pa$$w0rd1
+ana.marija@example.com:securepass
 
 Running the script and selecting input.txt using the file dialog will generate a new file named input_username.txt with the following content:
 
-john.doe:pa$$w0rd1
-jane.smith:securepass
+mahir.mahe:pa$$w0rd1
+ana.marija:securepass
 
 The domain (@example.com) is removed from the email addresses, resulting in the username:password format.
 
