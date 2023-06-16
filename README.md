@@ -29,7 +29,7 @@ This Python script allows you to convert email:password pairs to username:passwo
 
 9.Click the "Exit" button to close the GUI and exit the program.
 
-##Example
+## Example
 Suppose you have a text file named input.txt with the following content:
 
 john.doe@example.com:pa$$w0rd1
@@ -42,10 +42,10 @@ jane.smith:securepass
 
 The domain (@example.com) is removed from the email addresses, resulting in the username:password format.
 
-##Limitations
+## Limitations
 The script assumes that each line in the input file follows the email:password format without any variations. It does not perform any validation or error handling for incorrect formats.
 
 The script uses the tkinter module for the GUI. Ensure that tkinter is properly installed to run the script without any issues.
 
-##Contributing
+## Contributing
 Contributions to this script are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
